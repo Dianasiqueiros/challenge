@@ -2,7 +2,7 @@
 Bug and Automation challenge.
 
 UI Bugs<br />
-1. Title: 
+**Title:** 
 Add Employee - Required warning message are not displayed when the user leaves the inputs in blank<br />
 Description: Required warning message are not displayed when the user leaves the inputs like First Name, Last NAme and Dependets in blank and the user click on the 'Add? button on the modal<br />
 Environment:<br />
@@ -20,7 +20,7 @@ Visual help:<br />
 <img width="726" alt="Screenshot 2025-01-31 at 7 36 47 p m" src="https://github.com/user-attachments/assets/ab1e0420-3353-4263-a13c-7bfd1f9139dd" /><br />
 <br />
 <br />
-2. Title: 
+**Title:** 
 Add Employee - Required warning message are not displayed when the user leaves the inputs in blank<br />
 Description: Required warning message are not displayed when the user leaves the inputs like First Name, Last NAme and Dependets in blank and the user click on the 'Add? button on the modal<br />
 Environment:<br />
