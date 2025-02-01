@@ -86,5 +86,26 @@ Expected result: The First Name and Last Name should displayed and error message
 Visual help:<br />
 <img width="832" alt="Screenshot 2025-01-31 at 8 16 57 p m" src="https://github.com/user-attachments/assets/4a595a90-64d6-4cff-849e-1797c75fa580" />
 
+<br/>
+<br/>
+<br />
+Title:<br />
+Add Employee Modal - Warning Message is missing for the characters limit in the input fields First Name and Last Name
+Description: Warning Message is missign when the user type more the 100 in the input fields First Name and Last Name on the 'Add Employee' modal <br />
+Environment:<br />
+URl: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits<br />
+Username: TestUser722<br />
+Password: $8(;65PWFXvH<br />
+Broswser: Chrome<br />
+Steps to Reproduce:<br />
+1. Log In using the username and password describe on the enviroment section<br />
+2. On the Paylocity Benefits Dashboard click on the 'Add Employee' button<br />
+3. The 'Add Employee' modal type 100 0r more characters (iewrupqwoeruoqperuqioewuroqpweurqwioeruqpeowiruqwioeruqpeoiruqpoewiurqiwoeurqpewiourqeiworuqpoweiruq) on the First Name field
+4. The 'Add Employee' modal type 100 0r more characters (iewrupqwoeruoqperuqioewuroqpweurqwioeruqpeowiruqwioeruqpeoiruqpoewiurqiwoeurqpewiourqeiworuqpoweiruq) on the Last Name field
+Actual result: The modal ramains open with all the data but no error message indicates the issue for the user<br />
+Expected result: An error messge is displayed to indicate the user the error<br />
+Visual help:<br />
+<img width="1372" alt="Screenshot 2025-01-31 at 8 54 03 p m" src="https://github.com/user-attachments/assets/ca70cd9e-9a63-44e6-944a-b7eb05b4e4ff" />
 
 API Bugs
+
