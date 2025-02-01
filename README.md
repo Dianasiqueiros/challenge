@@ -106,7 +106,9 @@ Actual result: The modal ramains open with all the data but no error message ind
 Expected result: An error messge is displayed to indicate the user the error<br />
 Visual help:<br />
 <img width="1372" alt="Screenshot 2025-01-31 at 8 54 03 p m" src="https://github.com/user-attachments/assets/ca70cd9e-9a63-44e6-944a-b7eb05b4e4ff" />
-
+<br />
+<br />
+<br />
 API Bugs
 
 **Title:** <br />
