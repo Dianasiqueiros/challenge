@@ -109,3 +109,24 @@ Visual help:<br />
 
 API Bugs
 
+**Title:** <br />
+Delete Employee Api - The api show a 200 status code, but the frontend still displaying the employee with odd numbers<br />
+Description: Delete Employee Api is displaying a 200 status code but the employee is still displayed on the 'Paylocity Benefits Dashboard' with odd values in the Net Pay column  <br />
+Environment:<br />
+URl: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits<br />
+API Path : https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/api/employees/{{id}})
+id:653e776b-6819-4aa3-b4e4-2c31b3eb53c2
+API Method : DELETE
+Username: TestUser722<br />
+Password: $8(;65PWFXvH<br />
+Broswser: Chrome<br />
+token: VGVzdFVzZXI3MjI6JDgoOzY1UFdGWHZI
+Steps to Reproduce:<br />
+1. On the postman wokspace click on Get Employee List and enter the valid token and click on the 'Send' button
+2. On the response call for the get employee list select an id for the employee you want to deleted in my case was '653e776b-6819-4aa3-b4e4-2c31b3eb53c2'<br />
+3. Now go to the Delete Employee Api an replace the tocken and the value you got the previous steps and click on the 'Send' button
+4. Go to the url app 'https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Benefits' and log in with the credentials<br />
+   Actual result: The user you deleted on the step 3 is still displayed on the table and it displayed a negative value in the Net Pay column<br />
+   Expected result: The user should not be displayed<br />
+Visual help:<br />
+<img width="1123" alt="Screenshot 2025-01-31 at 9 21 24 p m" src="https://github.com/user-attachments/assets/6d9f6fa5-fc51-4195-a666-16a662c1a385" />
