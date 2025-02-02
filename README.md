@@ -1,7 +1,22 @@
 # Challenge
-The Automation challenge, download the paylocityAutomation.zip file, once the download is complete, unzip the file.
-Bug and Automation challenge.
+Automation challenge. 
+The Automation challenge, download the paylocityAutomation.zip file, once the download is complete, unzip the file.<br />
+The specs files playloCityFront.js contains the cypress test to validate the front and the playloCityBack.js contains the cypress test to validate the Api endpoints
 
+<br />
+## Getting Started
+First run:
+
+```bash
+npm install
+# and to run the cypress test
+npx cypress open 
+```
+
+
+<br />
+<br />
+Bug Challenge
 ***UI Bugs***<br />
 <br />
 **Title:** <br />
