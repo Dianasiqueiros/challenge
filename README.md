@@ -1,4 +1,5 @@
 # Challenge
+The Automation challenge, download the paylocityAutomation.zip file, once the download is complete, unzip the file.
 Bug and Automation challenge.
 
 ***UI Bugs***<br />
